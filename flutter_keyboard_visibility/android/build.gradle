@@ -2,7 +2,6 @@ group = "com.jrai.flutter_keyboard_visibility"
 version = "1.0"
 
 buildscript {
-    ext.kotlin_version = "1.8.22"
     repositories {
         google()
         mavenCentral()
@@ -10,7 +9,6 @@ buildscript {
 
     dependencies {
         classpath("com.android.tools.build:gradle:8.1.0")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
     }
 }
 
@@ -48,5 +46,5 @@ android {
     defaultConfig {
         minSdk = 21
     }
-    
+
 }
